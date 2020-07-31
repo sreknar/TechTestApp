@@ -3,5 +3,5 @@
 "DbName" = "app"
 "DbPort" = "5432"
 "DbHost" = "localhost"
-"ListenHost" = "localhost"
+"ListenHost" = "full_app"
 "ListenPort" = "3000"
