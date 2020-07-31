@@ -19,10 +19,10 @@ services:
     image: postgres:latest
     container_name: full_db_postgres
     environment:
-      - POSTGRES_USER=postgres 
-      - POSTGRES_PASSWORD=newPassword
-      - POSTGRES_DB=app
-      - DATABASE_HOST=localhost
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - DATABASE_HOST=${DATABASE_HOST}
     ports:
       - '5432:5432'
     volumes:
